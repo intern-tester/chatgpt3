@@ -13,8 +13,8 @@
   "environments": {
     "test": {
       "scripts": {
-        "test-setup": "python manage.py collectstatic --noinput",
-        "test": "python index.py test"
+        "test-setup": "python index.py",
+        "test": "python index.py"
       }
     }
   }
